@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/nginx/Dockerfile
+    container_name: ${PROJECT_NAME}-nginx
     ports:
       - '8080:80'
     volumes:
@@ -19,6 +20,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/php-fpm/Dockerfile
+    container_name: ${PROJECT_NAME}-php
     volumes:
       - ./:/var/www/app
     command: sh -c 'php-fpm'
@@ -26,6 +28,7 @@ services:
   mariadb:
 #    image: mariadb:10.3
     image: mariadb:latest
+    container_name: ${PROJECT_NAME}-mysql
     environment:
       MYSQL_ROOT_PASSWORD: qwerty123
       MYSQL_DATABASE: ecommerce_db

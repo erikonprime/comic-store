@@ -37,6 +37,9 @@ class Product
     #[ORM\JoinColumn(nullable: false)]
     private Category $category;
 
+//    #[ORM\Column(nullable: true)]
+    public ?string $image = 'placeholder-image.png';
+
     public function __toString()
     {
         return $this->title;
@@ -118,4 +121,18 @@ class Product
 
         return $this;
     }
+
+
+    public function getImage(): ?string
+    {
+        return $this->image = 'placeholder-image.png';
+    }
+//
+//    public function setImage(?string $image): self
+//    {
+//        $this->image = $image;
+//
+//        return $this;
+//    }
+
 }

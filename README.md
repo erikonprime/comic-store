@@ -22,3 +22,11 @@ http://localhost:8080/
 |------------------|--------|---------------------------|
 | /                | GET    | return default message    |
 | /api/login_check | POST   | password should be hashed |
+
+
+php app/console doctrine:migrations:execute YYYYMMDDHHMMSS --down
+
+
+| issues                         |
+*image upload
+

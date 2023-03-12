@@ -1,6 +1,6 @@
 <template>
-  <HeroSection/>
-  <AboutSection/>
+<!--  <HeroSection/>-->
+<!--  <AboutSection/>-->
   <ProductSection/>
   <NewsletterSection/>
 </template>

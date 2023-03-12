@@ -12,7 +12,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route('/api/admin', name: 'admin_')]
+#[Route('/ajax/admin', name: 'admin_')]
 class DashboardController extends AbstractDashboardController
 {
     #[Route('/dashboard', name: 'main')]
