@@ -11,22 +11,24 @@ class CategoryFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $category = new Category();
-        $category->setTitle('Electronic');
-        $category->setSlug('electronic');
+        $category->setTitle('New');
+        $category->setSlug('new');
         $manager->persist($category);
+        $this->addReference('category_new', $category);
 
-        $category1 = new Category();
-        $category1->setTitle('fashion');
-        $category1->setSlug('fashion');
-        $manager->persist($category1);
+        $category = new Category();
+        $category->setTitle('Manga');
+        $category->setSlug('manga');
+        $manager->persist($category);
+        $this->addReference('category_manga', $category);
 
-        $category2 = new Category();
-        $category2->setTitle('Sports & Leisure');
-        $category2->setSlug('sports-leisure');
-        $manager->persist($category2);
+        $category = new Category();
+        $category->setTitle('Comics');
+        $category->setSlug('comics');
+        $manager->persist($category);
+        $this->addReference('category_comics', $category);
 
         $manager->flush();
 
-        $this->addReference('category_1', $category);
     }
 }

@@ -6,6 +6,8 @@ http://localhost:8080/
 
 **run:** docker-compose up --force-recreate --build
 **run:** php bin/console list make
+**run:** php bin/console doctrine:fixtures:load
+
 
 **Commit prefix:**
 
