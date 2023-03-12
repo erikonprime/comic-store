@@ -1,8 +1,8 @@
 <template>
 <!--  <HeroSection/>-->
 <!--  <AboutSection/>-->
-  <ProductSection/>
-  <NewsletterSection/>
+<!--  <ProductSection/>-->
+<!--  <NewsletterSection/>-->
 </template>
 
 <script>

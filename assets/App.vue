@@ -1,4 +1,5 @@
 <template>
+<!--  <div class="body-wrapper">-->
   <HeaderSection/>
 <!--  <MainSection/>-->
 <!--  <HeroSection/>-->
@@ -8,6 +9,7 @@
   <router-view> </router-view >
   <FooterSection/>
 <!--  <router-view> </router-view >-->
+<!--  </div>-->
 </template>
 
 <script>
