@@ -5,6 +5,7 @@ import ProductsList from "../components/test/ProductsList";
 import Product from "../components/test/Product";
 import ProductDetails from "../components/ProductDetails";
 import MainSection from "../components/MainSection";
+import MainProduct from '../components/Products/Main'
 
 export default createRouter({
     history: createWebHistory(),
@@ -20,9 +21,9 @@ export default createRouter({
             component: Product
         },
         {
-            name: 'home',
-            path: '/home',
-            component: Home
+            name: 'shop',
+            path: '/main',
+            component: MainProduct
         },
         {
             name: 'productDetails',

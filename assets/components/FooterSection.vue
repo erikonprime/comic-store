@@ -1,141 +1,203 @@
 <template>
-  <footer class="footer">
-    <div class="container">
-
-      <div class="footer-top section">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">Sweet Shop</a>
-
-          <ul>
-
-            <li class="footer-list-item">
-              <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
-
-              <address class="address">
-                Riga, Latvia, LV 2022
-              </address>
-            </li>
-
-            <li class="footer-list-item">
-              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
-
-              <a href="tel:+1234567890" class="footer-link">+371 5555555</a>
-            </li>
-
-            <li>
-              <ul class="social-list">
-
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-vk"></ion-icon>
-                  </a>
-                </li>
-
-              </ul>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">Help & Information</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Help & Contact Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Returns & Refunds</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Online Stores</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <p class="footer-list-title">About Us</p>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">What We Do</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">FAQ Page</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-        </ul>
-
-        <div class="footer-list">
-
-          <p class="footer-list-title">Newsletter</p>
-
-          <form action="" class="footer-form">
-            <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
-
-            <button type="submit" class="footer-form-btn">
-              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-            </button>
-          </form>
-
-          <div class="wrapper">
-
-            <a href="#" class="footer-link">Term & Condition</a>
-            <a href="#" class="footer-link">Policy</a>
-            <a href="#" class="footer-link">Map</a>
-
-
-
+  <div class="footer">
+    <!-- Begin Footer Static Top Area -->
+    <div class="footer-static-top">
+      <div class="container">
+        <!-- Begin Footer Shipping Area -->
+        <div class="footer-shipping pt-60 pb-55 pb-xs-25">
+          <div class="row">
+            <!-- Begin Li's Shipping Inner Box Area -->
+            <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
+              <div class="li-shipping-inner-box">
+                <div class="shipping-icon">
+                  <img src="../img/shipping-icon/1.png" alt="Shipping Icon">
+                </div>
+                <div class="shipping-text">
+                  <h2>Free Delivery</h2>
+                  <p>And free returns. See checkout for delivery dates.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Li's Shipping Inner Box Area End Here -->
+            <!-- Begin Li's Shipping Inner Box Area -->
+            <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
+              <div class="li-shipping-inner-box">
+                <div class="shipping-icon">
+                  <img src="../img/shipping-icon/2.png" alt="Shipping Icon">
+                </div>
+                <div class="shipping-text">
+                  <h2>Safe Payment</h2>
+                  <p>Pay with the world's most popular and secure payment methods.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Li's Shipping Inner Box Area End Here -->
+            <!-- Begin Li's Shipping Inner Box Area -->
+            <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
+              <div class="li-shipping-inner-box">
+                <div class="shipping-icon">
+                  <img src="../img/shipping-icon/3.png" alt="Shipping Icon">
+                </div>
+                <div class="shipping-text">
+                  <h2>Shop with Confidence</h2>
+                  <p>Our Buyer Protection covers your purchasefrom click to delivery.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Li's Shipping Inner Box Area End Here -->
+            <!-- Begin Li's Shipping Inner Box Area -->
+            <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
+              <div class="li-shipping-inner-box">
+                <div class="shipping-icon">
+                  <img src="../img/shipping-icon/4.png" alt="Shipping Icon">
+                </div>
+                <div class="shipping-text">
+                  <h2>24/7 Help Center</h2>
+                  <p>Have a question? Call a Specialist or chat online.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Li's Shipping Inner Box Area End Here -->
           </div>
-
         </div>
-
+        <!-- Footer Shipping Area End Here -->
       </div>
-
-      <div class="footer-bottom">
-
-        <p class="copyright">
-          &copy; {{ currYear }} All Rights Reserved by <a href="https://github.com/erikonprime" target="_blank" class="copyright-link">erikonprime</a>.
-        </p>
-
-      </div>
-
     </div>
-  </footer>
+    <!-- Footer Static Top Area End Here -->
+    <!-- Begin Footer Static Middle Area -->
+    <div class="footer-static-middle">
+      <div class="container">
+        <div class="footer-logo-wrap pt-50 pb-35">
+          <div class="row">
+            <!-- Begin Footer Logo Area -->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-logo">
+                <img src="../img/menu/logo/1.jpg" alt="Footer Logo">
+                <p class="info">
+                  We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
+                </p>
+              </div>
+              <ul class="des">
+                <li>
+                  <span>Address: </span>
+                  6688Princess Road, London, Greater London BAS 23JK, UK
+                </li>
+                <li>
+                  <span>Phone: </span>
+                  <a href="#">(+123) 123 321 345</a>
+                </li>
+                <li>
+                  <span>Email: </span>
+                  <a href="mailto://info@yourdomain.com">info@yourdomain.com</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Footer Logo Area End Here -->
+            <!-- Begin Footer Block Area -->
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="footer-block">
+                <h3 class="footer-block-title">Product</h3>
+                <ul>
+                  <li><a href="#">Prices drop</a></li>
+                  <li><a href="#">New products</a></li>
+                  <li><a href="#">Best sales</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Footer Block Area End Here -->
+            <!-- Begin Footer Block Area -->
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="footer-block">
+                <h3 class="footer-block-title">Our company</h3>
+                <ul>
+                  <li><a href="#">Delivery</a></li>
+                  <li><a href="#">Legal Notice</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Footer Block Area End Here -->
+            <!-- Begin Footer Block Area -->
+            <div class="col-lg-4">
+              <div class="footer-block">
+                <h3 class="footer-block-title">Follow Us</h3>
+                <ul class="social-link">
+                  <li class="twitter">
+                    <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="rss">
+                    <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="RSS">
+                      <i class="fa fa-rss"></i>
+                    </a>
+                  </li>
+                  <li class="google-plus">
+                    <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li class="facebook">
+                    <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="youtube">
+                    <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank" title="Youtube">
+                      <i class="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li class="instagram">
+                    <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Begin Footer Newsletter Area -->
+              <div class="footer-newsletter">
+                <h4>Sign up to newsletter</h4>
+                <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll">
+                    <div id="mc-form" class="mc-form subscribe-form form-group" >
+                      <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
+                      <button  class="btn" id="mc-submit">Subscribe</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Footer Newsletter Area End Here -->
+            </div>
+            <!-- Footer Block Area End Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Static Middle Area End Here -->
+    <!-- Begin Footer Static Bottom Area -->
+    <div class="footer-static-bottom pt-55 pb-55">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Begin Footer Links Area -->
+            <!-- Footer Links Area End Here -->
+            <!-- Begin Footer Payment Area -->
+            <div class="copyright text-center">
+              <a href="#">
+                <img src="../img/payment/1.png" alt="">
+              </a>
+            </div>
+            <!-- Footer Payment Area End Here -->
+            <!-- Begin Copyright Area -->
+            <!-- Copyright Area End Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Static Bottom Area End Here -->
+  </div>
 </template>
 
 <script>
@@ -147,70 +209,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
-.footer-top {
-  display: grid;
-  gap: 30px;
-  padding-block-end: 40px;
-}
-
-.footer-list-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.footer-link {
-  padding-block: 4px;
-  transition: var(--transition-1);
-}
-
-.footer-link:is(:hover, :focus) { color: var(--tan-crayola); }
-
-.footer-brand .social-list { margin-block-start: 30px; }
-
-.footer-list-title {
-  color: var(--smokey-black);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-500);
-  margin-block-end: 15px;
-}
-
-.footer-form { position: relative; }
-
-.footer .email-field {
-  padding-block: 10px;
-  padding-inline-end: 35px;
-  border-block-end: 1px solid var(--black_25);
-  outline: none;
-}
-
-.footer .email-field:focus { border-color: var(--tan-crayola); }
-
-.footer-form-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 20px;
-  color: var(--granite-gray);
-}
-
-.footer-list .wrapper {
-  display: flex;
-  gap: 20px;
-  margin-block-start: 20px;
-}
-
-.copyright {
-  text-align: center;
-  padding-block: 20px;
-}
-
-.copyright-link { display: inline-block; }
-</style>
